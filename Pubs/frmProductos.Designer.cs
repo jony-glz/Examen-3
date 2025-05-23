@@ -66,7 +66,7 @@
             this.dgvProductos.Name = "dgvProductos";
             this.dgvProductos.RowHeadersWidth = 123;
             this.dgvProductos.RowTemplate.Height = 46;
-            this.dgvProductos.Size = new System.Drawing.Size(1539, 669);
+            this.dgvProductos.Size = new System.Drawing.Size(2004, 669);
             this.dgvProductos.TabIndex = 2;
             // 
             // cmsProductos
@@ -76,20 +76,20 @@
             this.toolStripMenuItemActualizar,
             this.toolStripMenuItemEliminar});
             this.cmsProductos.Name = "cmsProductos";
-            this.cmsProductos.Size = new System.Drawing.Size(421, 182);
+            this.cmsProductos.Size = new System.Drawing.Size(256, 116);
             this.cmsProductos.Opening += new System.ComponentModel.CancelEventHandler(this.cmsProductos_Opening);
             // 
             // toolStripMenuItemActualizar
             // 
             this.toolStripMenuItemActualizar.Name = "toolStripMenuItemActualizar";
-            this.toolStripMenuItemActualizar.Size = new System.Drawing.Size(420, 56);
+            this.toolStripMenuItemActualizar.Size = new System.Drawing.Size(255, 56);
             this.toolStripMenuItemActualizar.Text = "Actualizar";
             this.toolStripMenuItemActualizar.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItemEliminar
             // 
             this.toolStripMenuItemEliminar.Name = "toolStripMenuItemEliminar";
-            this.toolStripMenuItemEliminar.Size = new System.Drawing.Size(420, 56);
+            this.toolStripMenuItemEliminar.Size = new System.Drawing.Size(255, 56);
             this.toolStripMenuItemEliminar.Text = "Eliminar";
             this.toolStripMenuItemEliminar.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1563, 870);
+            this.ClientSize = new System.Drawing.Size(2028, 870);
             this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.dgvProductos);
